@@ -22,7 +22,7 @@ int main()
     {
         if(numbers[i] > numbers[0])
         {
-            numbers[0] = numbers[i];
+            numbers[0] = numbers[i]; //stores largest number in first index of array.
         }
     }
     printf("Largest element = %.2lf\n", numbers[0]);
