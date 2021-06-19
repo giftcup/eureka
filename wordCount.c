@@ -20,7 +20,7 @@ void freeMemory(tree *node);
 
 int main()
 {
-    FILE *inFile = fopen("./complete-shakespeare.txt", "r");
+    FILE *inFile = fopen("./complete - shakespeare.txt", "r");
     if(inFile == NULL)
     {
         printf("Couldn't open text");
